@@ -38,4 +38,8 @@ protected List<String> ingredientes;
                 ", ingredientes=" + ingredientes +
                 '}';
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

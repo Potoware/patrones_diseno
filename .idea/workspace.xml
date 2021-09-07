@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53c7774b-3920-40b7-a601-e6b4ea241faf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzaProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaNewYorkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaZonaAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkItaliana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkPeperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkVegetariana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzaProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzaProducto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
