@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53c7774b-3920-40b7-a601-e6b4ea241faf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaNewYorkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaZonaAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkItaliana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkPeperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaNewYorkVegetariana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaCaliforniaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/ejemplo/EjemploFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaCaliforniaHawaiana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaCaliforniaQueso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/producto/PizzaCaliforniaVegetariana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzaProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzaProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaNewYorkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/patrones/factory/PizzeriaNewYorkFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EjemploFactory">
+    <configuration name="EjemploFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.patrones.factory.ejemplo.EjemploFactory" />
+      <module name="patrones_diseno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.patrones.factory.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.patrones.singleton.EjemploSingleton" />
       <module name="patrones_diseno" />
@@ -53,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploFactory" />
         <item itemvalue="Application.EjemploSingleton" />
       </list>
     </recent_temporary>
