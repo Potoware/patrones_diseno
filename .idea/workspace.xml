@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53c7774b-3920-40b7-a601-e6b4ea241faf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/EjemploDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/IFormateable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/Texto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/decorador/MayusculasDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/decorador/ReemplazarEspacioDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/decorador/ReversaDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/decorador/SubrayadoDecorador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator/decorador/TextoDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/Configurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/EjemploDecoradorCafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/decorador/CafeDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/decorador/ConChocolateDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/decorador/ConCremaDecorador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/patrones/decorator2/decorador/ConLecheDecorador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +39,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.EjemploDecorador">
+  <component name="RunManager" selected="Application.EjemploDecoradorCafe">
     <configuration name="EjemploDecorador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.patrones.EjemploDecorador" />
       <module name="patrones_diseno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.potoware.patrones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploDecoradorCafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.patrones.decorator2.EjemploDecoradorCafe" />
+      <module name="patrones_diseno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.patrones.decorator2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploDecoradorCafe" />
         <item itemvalue="Application.EjemploDecorador" />
         <item itemvalue="Application.EjemploFactory" />
         <item itemvalue="Application.EjemploSingleton" />
